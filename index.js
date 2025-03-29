@@ -87,7 +87,7 @@ border-radius: 1rem;
 }
 
 .chat${suffix} .message-input input {
-  width: 100%;
+  width: 150%;
   padding: 10px;
   padding-bottom: 10px;
   border-radius: 2rem;

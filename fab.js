@@ -6,13 +6,13 @@ class Blur {
         this.div.id = "blurred_background";
         this.div.innerHTML = `<style>
         #blurred_background{
-            position: absolute;
+            position: fixed;
             top: 0;
             left: 0;
-            height: 100vh;
-            width: 100vw;
+            height: 100%;
+            width: 100%;
             backdrop-filter: blur(8px);
-            z-index:1001;
+            z-index: 1001;
         }
         #blurred_background p{
             display: -webkit-box;

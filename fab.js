@@ -50,6 +50,7 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
      #modal${suffix} {
         position: absolute;
         background-color: #fcfcf2;
+        bottom: 20px;
         right: 20px;
         z-index: 1001;
     }  

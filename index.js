@@ -39,9 +39,8 @@ max-width: 500px;
 min-height: 600px;
 background-color: #fcfcf2; 
 padding-right: 15px;
-padding-left: 15px; button
+padding-left: 15px;button
 border-radius: 1rem;
-z-index: 1001;
 }
 
 /* messages */

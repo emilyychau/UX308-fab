@@ -36,7 +36,7 @@ class Chat extends HTMLElement {
 /* chatbox */
 .chat${suffix} {
 max-width: 500px;
-min-heightL 400px;
+min-height: 400px;
 background-color: #fcfcf2; 
 padding-right: 15px;
 padding-left: 15px; button

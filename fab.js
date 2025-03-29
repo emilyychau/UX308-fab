@@ -42,8 +42,6 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
      background-color: #521c6d;  
      color: #fff  
      position: fixed;
-     bottom: 10px;
-     right: 20px;
      padding: 1em;
      border-radius: 5px;
     }

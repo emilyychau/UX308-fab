@@ -42,13 +42,13 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
         position: fixed;
         background-color: #521c6d;
         color: #fff;
-        bottom: 20px;
+        bottom: 30px;
         right: 20px;
         padding: 1em;
         border-radius: 5px;
     }
      #modal${suffix} {
-        position: fixed;
+        position: absolute;
         background-color: #fcfcf2;
         bottom: 20px;
         right: 20px;

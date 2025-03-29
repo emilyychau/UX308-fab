@@ -54,7 +54,7 @@ border-radius: 1rem;
 
 .chat${suffix} .message-list {
   overflow-y: auto;
-  max-height: 500px;
+  max-height: 800px;
 }
 
 .chat${suffix} .message-item {

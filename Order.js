@@ -4,7 +4,7 @@ export class Order {
         WELCOMING: () => {
           let aReturn = [];
           this.stateCur = this.OrderState.ORDER;
-          aReturn.push("Welcome to Chatime! Would you like get started on an order for today?");
+          aReturn.push("Welcome to Boba Fiend! Would you like get started on an order for today?");
           return aReturn;
         },
         ORDER: (sInput) => {
@@ -254,7 +254,7 @@ export class Order {
             aReturn.push("This is a confirmation of your order number: 002-028-2025.");
           } 
           else {
-            aReturn.push("Thanks for trying out Chatime's SMS ordering system");
+            aReturn.push("Thanks for trying out Boba Fiend's SMS ordering system");
             aReturn.push("You can also order in person at our Waterloo location at 255 King St North Unit 9");
             aReturn.push("We'll see you next time")
           }

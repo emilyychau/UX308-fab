@@ -4,7 +4,7 @@ describe("Tests all stages of an order", function() {
     it("test hello", function() {
         const oOrder = new Order("002-028-2025");
         const aResults = oOrder.handleInput("hello");
-        expect(aResults[0]).toBe("Welcome to Chatime! Would you like get started on an order for today?")
+        expect(aResults[0]).toBe("Welcome to Boba Fiend! Would you like get started on an order for today?")
     });
     it("test start order", function() {
         const oOrder = new Order("002-028-2025");

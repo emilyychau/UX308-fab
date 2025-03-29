@@ -48,7 +48,7 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
         border-radius: 5px;
     }
      #modal${suffix} {
-        position: absolute;
+        position: fixed;
         background-color: #fcfcf2;
         bottom: 20px;
         right: 20px;

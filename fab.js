@@ -50,13 +50,14 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
     }
      #modal${suffix} {
         position: fixed;
-        bottom: 40px;
+        bottom: 5px;
         right: 20px;
         background-color: #fcfcf2;
+        z-index: 1001;
     }  
     #clear${suffix}{
         position: fixed;
-        top: 1em;
+        top: -1em;
         right: 1em;
         padding: 1em;
         border-radius: 5px;

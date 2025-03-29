@@ -49,12 +49,12 @@ border-radius: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 500px;
+  height: 900px;
 }
 
 .chat${suffix} .message-list {
   overflow-y: auto;
-  max-height: 500px;
+  max-height: 900px;
 }
 
 .chat${suffix} .message-item {

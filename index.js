@@ -46,7 +46,7 @@ z-index: 1001;
 
 /* messages */
 .chat${suffix} .messages {
-  background-color: #fff;
+  background-color: #fcfcf2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

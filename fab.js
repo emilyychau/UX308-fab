@@ -9,7 +9,7 @@ class Blur {
             position: absolute;
             top: 0;
             left: 0;
-            height: 600vh;
+            height: 450vh;
             width: 100vw;
             backdrop-filter: blur(8px);
             z-index: 1001;

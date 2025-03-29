@@ -22,7 +22,7 @@ class Chat extends HTMLElement {
       this.oOrder = new Order("002-028-2025")
     }
     for(let message of aMessages){
-      this.messages.insertAdjacentHTML("beforeend", `<li class="message-item item-primary"><b>Chatime Charlie says:</b> ${message}</li>`);
+      this.messages.insertAdjacentHTML("beforeend", `<li class="message-item item-primary"><b>Boba Fiend says:</b> ${message}</li>`);
     }
     this.messages.scrollTop = this.messages.scrollHeight;
   }
@@ -49,12 +49,12 @@ border-radius: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 900px;
+  height: 500px;
 }
 
 .chat${suffix} .message-list {
   overflow-y: auto;
-  max-height: 900px;
+  max-height: 500px;
 }
 
 .chat${suffix} .message-item {

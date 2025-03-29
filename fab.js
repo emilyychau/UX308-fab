@@ -49,7 +49,7 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
         z-index: 1001; 
     }
      #modal${suffix} {
-        position: fixed;
+        position: absolute;
         bottom: 5px;
         right: 20px;
         background-color: #fcfcf2;
@@ -57,7 +57,7 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
     }  
     #clear${suffix}{
         position: fixed;
-        top: -1em;
+        top: 2em;
         right: 1em;
         padding: 1em;
         border-radius: 5px;

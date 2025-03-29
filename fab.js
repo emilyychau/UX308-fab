@@ -46,16 +46,17 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
         right: 20px;
         padding: 1em;
         border-radius: 5px;
+        z-index: 1001; 
     }
-     #modal${suffix}{
-     position: absolute;
-     bottom: 5px;
-     right: 5px;
-     background-color: #fcfcf2;
+     #modal${suffix} {
+        position: fixed;
+        bottom: 40px;
+        right: 20px;
+        background-color: #fcfcf2;
     }  
     #clear${suffix}{
         position: fixed;
-        top: 3em;
+        top: 1em;
         right: 1em;
         padding: 1em;
         border-radius: 5px;

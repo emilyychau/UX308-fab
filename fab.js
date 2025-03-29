@@ -38,12 +38,12 @@ const suffix = (Math.random()*100).toFixed().toString();
 
 document.querySelector("body").insertAdjacentHTML("beforeend", `
     <style>
-    #fab${suffix} { // Order w/ SMS btn //
+    #fab${suffix} { 
      background-color: #521c6d;  
      color: #fff  
      position: fixed;
-     bottom: 1em;
-     right: 2em;
+     bottom: 10px;
+     right: 20px;
      padding: 1em;
      border-radius: 5px;
     }
